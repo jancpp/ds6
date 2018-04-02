@@ -1,0 +1,6 @@
+Jan Polzer
+Lab6 – Summary
+
+During experimental profiling on open hash table with chaining, closed hast table with quadratic probing, and closed hash table with double hashing, I tested performance of the hash tables. I measured time in milliseconds.
+During insert/built, the open hast table performed faster than both closed hash table. Both closed hash tables had very similar performance during insert.
+During find operation, all three tables performed very similarly, the closed table with double hashing has a slight edge. Even with larger amounts of data, all tables found value almost instantly, very close to O(1).
